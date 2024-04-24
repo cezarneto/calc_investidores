@@ -1,0 +1,31 @@
+body {
+    background-color: #f2f2f2; /* Cor de fundo clara */
+    color: #333; /* Cor de texto escura */
+    font-family: Tahoma; /* Tipo de fonte */
+}
+
+h3 {
+    color: #333; /* Cor de texto escura */
+}
+
+/* Layout */
+#conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px; /* Largura fixa */
+    margin: 50px auto; /* Centralizar na página */
+    padding: 20px;
+    border: 1px solid #ccc; /* Borda sutil */
+    border-radius: 5px; /* Arredondar cantos */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+    font-family: Tahoma;
+    font-size: 12px;
+    text-align: justify;
+}
+
+#contato {
+    color: #dca43e; /* Amarelo ouro */
+    font-family: Tahoma;
+    font-size: 10px;
+}
